@@ -12,8 +12,8 @@ const App = () => {
   const Stack = createStackNavigator();
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Ofto Tech'>
-        <Stack.Screen name='Ofto Tech' component={SplashScreen} />
+      <Stack.Navigator initialRouteName='Ofto Learning'>
+        <Stack.Screen name='Ofto Learning' component={SplashScreen} />
         <Stack.Screen name='Login' component={LoginScreen} />
         <Stack.Screen name='Register' component={RegisterScreen} />
         <Stack.Screen name='Learn Coding' component={DashboardScreen} />
